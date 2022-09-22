@@ -1,0 +1,621 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: raleway, sans-serif;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    max-zoom: 100%;
+    
+}
+
+
+.container {
+    height: 600px;
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 2%;
+    top: 2%;
+    position: absolute;
+}
+
+.group {
+    font-weight: bold;
+    color:grey;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 12px;
+}
+
+.name {
+    font-weight: bold;
+    position: absolute;
+    font-size: 25px;
+    left: 5%;
+    top:15%;
+    color:white
+}
+
+.main-screen {
+    font-weight: bold;
+    position: absolute;
+    font-size: 25px;
+    top: 15%;
+    left: 30%;
+    color: white;
+}
+
+.lvl {
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top:10%;
+    left: 54%;
+    color:white;
+
+}
+
+.progress-bar {
+    width: 400px;
+    height: 3px;
+    background-color: grey;
+    position: absolute;
+    top:15%;
+    left: 54%;
+}
+
+.exp {
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    color:white
+}
+
+.heists-rectangle {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top:29%;
+    left:5%;
+    opacity: 100%;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in 0.5s;
+}
+
+.heists-rectangle:hover {
+    border-color: aliceblue;
+    transition: 0.5s ease-out;
+}
+
+.heists-icon {
+    color:magenta;
+    font-size: 20px;
+    position: absolute;
+    top:25%;
+    left: 10%;
+
+}
+
+.heists-button {
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    
+}
+
+.quests-rectangle {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top:38%;
+    left:5%;
+    opacity: 100%;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in 0.5s;
+}
+
+.quests-rectangle:hover {
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+.quests-icon {
+    color:magenta;
+    font-size: 20px;
+    position: absolute;
+    top:25%;
+    left: 10%;
+}
+
+.quests-button {
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+.shop-rectangle {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top:47%;
+    left:5%;
+    opacity: 100%;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in 0.5s;
+}
+
+.shop-rectangle:hover {
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.shop-icon {
+    color:magenta;
+    font-size: 22px;
+    position: absolute;
+    top:49%;
+    left: 90px;
+}
+
+.shop-text {
+    font-weight: bold;
+    position: absolute;
+    font-family: sans-serif;
+    top: 308px;
+    left: 120px;
+    color: white;
+    cursor: pointer;
+}
+
+.shop-text:hover {
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+.perfect {
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 20%;
+    left: 54%;
+    color:white
+}
+
+.heist-1 {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    border-style: solid;
+    border-color: magenta;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.heist-1 {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    border-style: solid;
+    border-color: magenta;
+    border-radius: 0px 20px 0px 20px;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.lvl-0-heist1 {
+    position: absolute;
+    font-family: sans-serif;
+    top: 32%;
+    left: 48%;
+    font-size: 14px;
+    color: whitesmoke;
+    animation-name: animation;
+    animation-duration: 1s;
+    
+}
+
+.heist1-name {
+    position: absolute;
+    font-family: sans-serif;
+    top:32%;
+    left: 54%;
+    color:white;
+    font-weight: bold;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.heist1-progress {
+    font-family: sans-serif;
+    position: absolute;
+    top:37%;
+    left: 48%;
+    font-weight: bold;
+    color:white;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.heist1-progressbar {
+    height: 3px;
+    width: 150px;
+    background-color: gray;
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.heist-2 {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 64%;
+    border-style: solid;
+    border-color: magenta;
+    border-radius: 0px 20px 0px 20px;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.lvl-0-heist2 {
+    position: absolute;
+    font-family: sans-serif;
+    top: 32%;
+    left: 65%;
+    font-size: 14px;
+    color: whitesmoke;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.heist2-name {
+    position: absolute;
+    font-family: sans-serif;
+    top:32%;
+    left: 68%;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.heist2-progress {
+    font-family: sans-serif;
+    position: absolute;
+    top:37%;
+    left: 65%;
+    font-weight: bold;
+    color:white;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.heist2-progressbar {
+    height: 3px;
+    width: 150px;
+    background-color: gray;
+    position: absolute;
+    top: 43%;
+    left: 888px;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+.main {
+    display: block;
+}
+
+
+
+.zadanie1 {
+    font-weight: bold;
+    font-size: 15px;
+    top: 30%;
+    left: 41%;
+    color: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    white-space: nowrap;
+    animation-name: test;
+    animation-duration: 1s;
+
+}
+
+.zadanie1-obramowanie {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: -10%;
+    left: 32%;
+    opacity: 100%;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in 0.5s;
+    z-index: 1;
+}
+
+.zadanie1-obramowanie:hover {
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.zadanie2 {
+    font-weight: bold;
+    font-size: 15px;
+    top: 65%;
+    left: 40%;
+    color:white;
+    white-space: nowrap;
+    position: absolute;
+    animation-name: test;
+    animation-duration: 1s;
+}
+
+.zadanie2-obramowanie {
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    top: 24%;
+    left: 32%;
+    opacity: 100%;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in 0.5s;
+    z-index: 1;
+}
+
+.zadanie2-obramowanie:hover {
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+.zadanie3 {
+    position: absolute;
+    left: 40%;
+    top: -3%;
+    animation-name: test;
+    animation-duration: 1s;
+}
+
+.zadanie3-obramowanie {
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    top: 58%;
+    left: 32%;
+    opacity: 100%;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in 0.5s;
+    z-index: 1;
+}
+
+.zadanie3-obramowanie:hover {
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.tabs__content {
+    display: none;
+}
+
+.tabs__content--active {
+    display: block;
+}
+
+.shop-title {
+    font-weight: bold;
+    font-size: 25px;
+    top: 30%;
+    left: 58%;
+    color: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    white-space: nowrap;
+    animation-name: shop-animation;
+    animation-duration: 1s;
+}
+
+.scar-img {
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.scar-buy {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    cursor: pointer;
+    animation-name: scar;
+    animation-duration: 1s;
+
+}
+
+.dollar-icon {
+    width: 20px;
+    height: 20px;
+    color: magenta;
+    position: absolute;
+    left: 46%;
+    top: 320px;
+    cursor: pointer;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.wartosc1 {
+    font-weight: bold;
+    font-size: 12px;
+    top: 324px;
+    left: 49%;
+    color: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    white-space: nowrap;
+    animation-name: scar;
+    animation-duration: 1s;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+    border-color: white;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.scar-buy:hover {
+    transition: ease-out 0.5s;
+    border-color: white;
+    
+}
+
+.ak47-img {
+    position: absolute;
+    height: 130px;
+    width: 150px;
+    top: 35%;
+    left: 65%;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.ak47-buy {
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: magenta;
+    border-width: 2px;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    cursor: pointer;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.dollar-icon2 {
+    width: 20px;
+    height: 20px;
+    color: magenta;
+    position: absolute;
+    left: 66%;
+    top: 320px;
+    cursor: pointer;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.wartosc2 {
+    font-weight: bold;
+    font-size: 13px;
+    top: 324px;
+    left: 940px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    white-space: nowrap;
+    animation-name: scar;
+    animation-duration: 1s;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+    border-color: white;
+    animation-name: scar;
+    animation-duration: 1s;
+}
+
+.ak47-buy:hover {
+    transition: ease-out 0.5s;
+    border-color: white;
+}
+
+@keyframes test {
+    from{ transform: translateX(200px);}
+    to{ transform: translateX(0px);}
+}
+
+@keyframes shop-animation {
+    from{transform: translateX(308px)}
+    to{transform: translateX(0px);}
+}
+
+@keyframes animation {
+    from{ transform: translateY(180px);}
+    to{ transform: translateY(0px);}
+}
+
+@keyframes scar {
+    from{transform: translateY(100px)}
+    to{transform: translateY(0px);}
+}
